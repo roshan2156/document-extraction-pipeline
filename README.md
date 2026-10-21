@@ -83,7 +83,6 @@ The pipeline uses environment variables to configure the API connection.
 | Variable | Purpose | Default |
 |---|---|---|
 | `NEURALWATT_API_KEY` | Preferred API authentication key | None |
-| `OPENAI_API_KEY` | Alternative API key variable supported by the code | None |
 | `OPENAI_BASE_URL` | OpenAI-compatible API base URL | `https://api.neuralwatt.com/v1` |
 | `OPENAI_MODEL` | Model identifier | `glm-5.2` |
 
