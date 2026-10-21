@@ -1,0 +1,183 @@
+{
+  "effective_date": "2024-08-03",
+  "property_address": "Flat 2, 5 Nugent Terrace, London, NW8 9QB",
+  "description": "Assured shorthold tenancy agreement dated 3 August 2024 between Saxon Investments (owner) and joint tenants Sacha Attiach and Talia Trup for Flat 2, 5 Nugent Terrace, London, NW8 9QB. Fixed term of 1 year from 1 October 2024 to 30 September 2025 at a rent of £2,300 per month payable in advance. Rent is reviewed annually in line with RPI, with increases floored at 5% and capped at 8% per annum. Includes a 6-month break clause exercisable by either party on two months' notice.",
+  "landlord_name": "Saxon Investments",
+  "tenant_name": "Sacha Attiach, Talia Trup",
+  "consideration": {
+    "consideration": [
+      {
+        "consideration_type": "rent",
+        "payment_amount": 2300,
+        "currency": "GBP",
+        "condition": "",
+        "amount_basis": "monthly",
+        "payment_frequency": "monthly",
+        "payment_timing": "in advance",
+        "payment_dates": "",
+        "payment_start_date": "2024-10-01",
+        "payment_end_date": "",
+        "rent_commencement_date": "2024-10-01",
+        "consideration_change_type": "original",
+        "targets_consideration_description": "",
+        "internal_source": "Assured shorthold tenancy agreement (Ver 1,3)",
+        "internal_evidence": [
+          {
+            "page": 1,
+            "clause": "",
+            "text": "The rent is: 2300.00 Monthly"
+          },
+          {
+            "page": 1,
+            "clause": "",
+            "text": "The rent must be paid in advance"
+          },
+          {
+            "page": 2,
+            "clause": "2",
+            "text": "From: 1 Oct 2024 to 11am on 30 Sep 2025"
+          }
+        ],
+        "notes": ""
+      }
+    ],
+    "rent_model_terms": [],
+    "contingent_consideration": []
+  },
+  "consideration_review": {
+    "consideration_review": [
+      {
+        "review_type": "index_linked",
+        "review_basis": "Annual rent increase in line with the Retail Price Index, with the increase floored at a minimum of 5% and capped at a maximum of 8% per annum.",
+        "currency": "GBP",
+        "upward_only_review": true,
+        "reviewed_rent_components": [
+          "rent"
+        ],
+        "review_effective_date": "",
+        "review_date_mechanism": "the annual anniversary of your tenancy",
+        "status": "valid",
+        "flags": [],
+        "review_change_type": "original",
+        "targets_review_description": "",
+        "internal_source": "Assured shorthold tenancy agreement (Ver 1,3)",
+        "internal_evidence": [
+          {
+            "page": 1,
+            "clause": "Rent Reviews",
+            "text": "The rent will be increased annually in line with the Retail Price Index (RPI). However, the increase shall be no less than 5% and no more than 8% per annum. The increase will be calculated based on the RPI rate 1 month before the rent increase, and the new rent amount will be effective on the annual anniversary of your tenancy."
+          },
+          {
+            "page": 2,
+            "clause": "2",
+            "text": "From: 1 Oct 2024 to 11am on 30 Sep 2025"
+          },
+          {
+            "page": 3,
+            "clause": "10",
+            "text": "you will have to pay interest on this amount from the date that it should have been paid. The interest rate is 3% above the base rate used by the Royal Bank of Scotland."
+          }
+        ],
+        "trigger": {
+          "type": "cycle",
+          "dates": [],
+          "cycle": "annual RPI review",
+          "event": "",
+          "anchor_date": "",
+          "anchor_label": "",
+          "anchor_source": "The tenancy start date is printed in the document, but the first review date is the annual anniversary of that date and is not printed as a calendar date.",
+          "anchor_kind": "relative timing wording",
+          "anchor_reasoning": "The new rent takes effect on the annual anniversary of the tenancy start, so the first review date requires anniversary calculation rather than a printed date.",
+          "cycle_reference_date": "2024-10-01",
+          "cycle_pattern": "first review calculated from reference date",
+          "cycle_period": "every year",
+          "cycle_end_date": ""
+        },
+        "indexation": {
+          "index_name": "Retail Price Index (RPI)",
+          "base_date": "",
+          "cap_percent": 8,
+          "floor_percent": 5,
+          "upwards_only": true
+        },
+        "constraints": {
+          "greater_of": true,
+          "floor_to_previous_rent": true,
+          "cap_present": true,
+          "statutory_staging": false,
+          "interim_rent_pending_determination": false,
+          "backdating": false,
+          "interest_on_backpay": true
+        }
+      }
+    ]
+  },
+  "key_dates": {
+    "key_dates": [
+      {
+        "date_value": "2024-08-03",
+        "date_type": "document_date",
+        "event_role": "document_signed",
+        "date_description": "Date: 2024-08-03",
+        "internal_source": "Assured shorthold tenancy agreement (Ver 1,3)",
+        "internal_evidence": [
+          {
+            "page": 1,
+            "clause": "",
+            "text": "Date: 2024-08-03"
+          }
+        ],
+        "notes": "Date of the tenancy agreement."
+      },
+      {
+        "date_value": "2024-10-01",
+        "date_type": "commencement_date",
+        "event_role": "commencement",
+        "date_description": "From: 1 Oct 2024 to 11am on 30 Sep 2025",
+        "internal_source": "Assured shorthold tenancy agreement (Ver 1,3)",
+        "internal_evidence": [
+          {
+            "page": 2,
+            "clause": "2",
+            "text": "From: 1 Oct 2024 to 11am on 30 Sep 2025"
+          }
+        ],
+        "notes": "Contractual start date of the fixed term."
+      },
+      {
+        "date_value": "2025-09-30",
+        "date_type": "term_end_date",
+        "event_role": "term_end",
+        "date_description": "From: 1 Oct 2024 to 11am on 30 Sep 2025",
+        "internal_source": "Assured shorthold tenancy agreement (Ver 1,3)",
+        "internal_evidence": [
+          {
+            "page": 2,
+            "clause": "2",
+            "text": "From: 1 Oct 2024 to 11am on 30 Sep 2025"
+          }
+        ],
+        "notes": "Contractual end date of the fixed term."
+      }
+    ],
+    "term": {
+      "term_period": "1 year",
+      "term_start_date": "2024-10-01",
+      "term_end_date": "2025-09-30",
+      "is_fixed_term": true,
+      "internal_source": "Assured shorthold tenancy agreement (Ver 1,3)",
+      "internal_evidence": [
+        {
+          "page": 1,
+          "clause": "2",
+          "text": "You will have the property and the furniture for a period of: Length of contract: 1 year"
+        },
+        {
+          "page": 2,
+          "clause": "2",
+          "text": "From: 1 Oct 2024 to 11am on 30 Sep 2025"
+        }
+      ]
+    }
+  }
+}

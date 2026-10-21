@@ -1,0 +1,109 @@
+{
+  "effective_date": "2025-10-01",
+  "property_address": "Flat 2 5 Nugent trerrace NEW8 9QB",
+  "description": "Rent memorandum from landlord Azil Capital Limited to tenants Sasha and Talia for Flat 2, 5 Nugent trerrace, NEW8 9QB, recording a rent increase from £2,300 to £2,415 per month effective 1st October 2025 following the month 13 rent review, in line with the agreed 5% minimum annual adjustment in the tenancy agreement.",
+  "landlord_name": "Azil Capital Limited",
+  "tenant_name": "Sasha and Talia",
+  "Consideration": {
+    "consideration": [
+      {
+        "consideration_type": "rent",
+        "payment_amount": 2415,
+        "currency": "GBP",
+        "condition": "",
+        "amount_basis": "monthly",
+        "payment_frequency": "monthly",
+        "payment_timing": "not_stated",
+        "payment_dates": "",
+        "payment_start_date": "2025-10-01",
+        "payment_end_date": "",
+        "rent_commencement_date": "2025-10-01",
+        "consideration_change_type": "variation",
+        "targets_consideration_description": "Previous rent of £2,300 per month payable under the tenancy agreement",
+        "internal_source": "Rent Memorandum",
+        "internal_evidence": [
+          {
+            "page": 1,
+            "clause": "",
+            "text": "New Rent: New rent: £2,415 per month"
+          },
+          {
+            "page": 1,
+            "clause": "",
+            "text": "Current Rent: £2,300 per month"
+          },
+          {
+            "page": 1,
+            "clause": "",
+            "text": "The updated rent will be payable starting from 1st October 2025."
+          }
+        ],
+        "notes": "Monthly rent increased from £2,300 to £2,415 with effect from 1st October 2025, applied in line with the tenancy agreement's minimum annual adjustment."
+      }
+    ],
+    "rent_model_terms": [],
+    "contingent_consideration": []
+  },
+  "key_dates": {
+    "key_dates": [
+      {
+        "date_value": "2025-10-09",
+        "date_type": "document_date",
+        "event_role": "document_signed",
+        "date_description": "09/10/25",
+        "internal_source": "Rent Memorandum",
+        "internal_evidence": [
+          {
+            "page": 1,
+            "clause": "",
+            "text": "09/10/25"
+          }
+        ],
+        "notes": "Memorandum date printed in numeric format and read as 9 October 2025 in day/month/year order, consistent with the document's UK context."
+      },
+      {
+        "date_value": "2025-10-01",
+        "date_type": "effective_date",
+        "event_role": "effective",
+        "date_description": "Effective Date: 1st October 2025",
+        "internal_source": "Rent Memorandum",
+        "internal_evidence": [
+          {
+            "page": 1,
+            "clause": "",
+            "text": "Effective Date: 1st October 2025"
+          },
+          {
+            "page": 1,
+            "clause": "",
+            "text": "The updated rent will be payable starting from 1st October 2025."
+          }
+        ],
+        "notes": "Date from which the revised rent becomes payable."
+      },
+      {
+        "date_value": "2025-10-01",
+        "date_type": "review_date",
+        "event_role": "other",
+        "date_description": "Rent Review Date: 1st October 2025 (Month 13 of the tenancy)",
+        "internal_source": "Rent Memorandum",
+        "internal_evidence": [
+          {
+            "page": 1,
+            "clause": "",
+            "text": "Rent Review Date: 1st October 2025 (Month 13 of the tenancy)"
+          }
+        ],
+        "notes": "Rent review date stated to fall in the thirteenth month of the tenancy; the increased rent takes effect on this date."
+      }
+    ],
+    "term": {
+      "term_period": "",
+      "term_start_date": "",
+      "term_end_date": "",
+      "is_fixed_term": false,
+      "internal_source": "Rent Memorandum",
+      "internal_evidence": []
+    }
+  }
+}
